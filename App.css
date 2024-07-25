@@ -1,0 +1,143 @@
+body{
+  background-color: rgb(31, 29, 29);
+  align-items: center;
+  align-content: center;
+}
+
+.image{
+  width :350px;
+  height: auto;
+  
+
+}
+
+.root{
+  align-items: center;
+  align-content: center;
+}
+  
+.main{
+  width: 350px;
+  height:auto;
+  align-items: center;  
+  background-color: rgb(48, 48, 48);
+  border-radius: 4px;
+  align-content: center;
+  display: flex;
+  
+}
+
+.image{
+  text-align: center;
+ 
+
+}
+.section-info{
+  padding: 2%;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+
+
+}
+.icon {
+  vertical-align: middle;
+  margin-right: 9.6px;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  color: hsla(232, 12%, 13%, 1);
+}
+.email{
+  /* color:aliceblue;
+  background-color:aqua;
+  border-radius: 8px;
+  border: 4px;
+  text-align: center;
+  display:inline-block ;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;   */
+
+
+  background-color: #199319;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+ 
+}
+.linkedin{
+  background-color:  #199319;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.about-section{
+  text-align: left;
+  margin: 10px;
+  color: aliceblue;
+  
+}
+.about{
+  text-align: left;
+  height: auto;
+  color: aliceblue;
+}
+
+.section-interest{
+  text-align: center;
+  color: aliceblue;
+  margin: 10px;
+
+}
+.interest{
+    text-align: left;
+
+
+}
+.interest_text{
+  text-align: left;
+
+}
+
+.section-footer{
+  text-align: center;
+  background-color: rgb(41 41, 41);
+  padding: 14px;
+  
+
+}
+
+
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 247px;
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+li >a {
+  text-decoration: none;
+  padding: 20px;
+  width: 15px;
+  height: 15px;
+ 
+
+}
+.section-footer li{
+  background: hsla(254, 6%, 58%, 1);
+  padding: 0.35em;
+  border-radius: 5px
+}
+
+li+li{
+  margin-left: 1.5em;
+}
